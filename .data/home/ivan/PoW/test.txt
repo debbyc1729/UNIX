@@ -1,0 +1,16 @@
+[x] Opening connection to up23.zoolab.org on port 10363
+[x] Opening connection to up23.zoolab.org on port 10363: Trying ::ffff:140.113.213.213
+[+] Opening connection to up23.zoolab.org on port 10363: Done
+1678111403.4120104 solving pow ...
+solved = b'3240488'
+1678111406.4434195 done.
+[*] Switching to interactive mode
+SHA1: 00000042258093969d02c81813004a6583f2a5e1
+
+Welcome to the arithmetic challenge
+Please complete the 196 challenges in a limited time.
+
+Note, each answer must be converted to a little-endian formatted
+shortest binary number encoded in base64
+
+1678111407.280602 1: 1151676109456 % 14528878 = ? [*] Got EOF while reading in interactive

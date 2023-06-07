@@ -1,0 +1,23 @@
+
+
+    /*for (auto const& dir_entry : std::filesystem::directory_iterator(path))
+    {
+        //std::cout << dir_entry.path() << '\n';
+        ifstream file;
+        //string full_path = path.append("123");
+        string full_path = dir_entry.path();
+        file.open(full_path);
+        string line;
+        int i;
+        for(i = 0; i < 10; i++){//i = 2 (argv[2]), argc
+            if(getline(file, line)){
+                if(line == argv[i]){
+                    targrt_file = full_path;
+                    -fprintf(stderr, "find! = %s\n", targrt_file);
+                }
+                else{
+                    -fprintf(stderr, "not find = %s\n", targrt_file);
+                }
+            }
+        }
+    }*/

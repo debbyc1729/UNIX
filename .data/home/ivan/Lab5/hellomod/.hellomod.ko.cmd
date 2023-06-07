@@ -1,0 +1,1 @@
+cmd_/home/ivan/Lab5/hellomod/hellomod.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/ivan/Lab5/hellomod/hellomod.ko /home/ivan/Lab5/hellomod/hellomod.o /home/ivan/Lab5/hellomod/hellomod.mod.o;  true
